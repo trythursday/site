@@ -15,14 +15,8 @@ That writes `dist/`: the landing page, `AGENTS.md`, and a copy of
 [Next Steps](https://github.com/trythursday/next-steps), which is cloned at build
 time and served under `/experiments/next-steps/`.
 
-Then:
-
-```sh
-just publish
-```
-
-builds `dist/` and pushes it to the `site` branch, which GitHub Pages serves at
-`trythursday.org`. The custom domain is written as `dist/CNAME`.
+Pushing to `main` deploys. `.github/workflows/pages.yml` runs `just site` and
+publishes `dist/` to GitHub Pages, which serves it at `trythursday.org`.
 
 ## Layout
 
