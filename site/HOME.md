@@ -32,7 +32,7 @@ Takes any goal and gives you concrete steps towards getting there.
 
 [Try it](https://trythursday.org/experiments/next-steps/)
 
-### Thing Refiner
+#### Thing Refiner
 
 Helps you create and refine text documents. Type a goal and what you have so 
 far -- get one thing to cut or one thing to add.
