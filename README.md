@@ -11,9 +11,13 @@ Needs `git`, [just](https://github.com/casey/just), and bun.
 just site
 ```
 
-That writes `dist/`: the landing page, `AGENTS.md`, and a copy of
-[Next Steps](https://github.com/trythursday/next-steps), which is cloned at build
-time and served under `/experiments/next-steps/`.
+That writes `dist/`: the landing page, `AGENTS.md`, and a copy of each
+experiment, cloned at build time and served under `/experiments/`:
+
+- [Next Steps](https://github.com/trythursday/next-steps) at
+  `/experiments/next-steps/`
+- [Thing Refiner](https://github.com/trythursday/thing-refiner) at
+  `/experiments/thing-refiner/`
 
 Pushing to `main` deploys. `.github/workflows/pages.yml` runs `just site` and
 publishes `dist/` to GitHub Pages, which serves it at `trythursday.org`.

@@ -24,12 +24,20 @@ a set of ideas
 
 ## Experiments
 
-### Next Steps
+### Non-chat Generative AI
 
-An experiment in using generative AI in a non-chat form. Takes any goal
-and gives you some concrete steps towards getting there.
+#### Next Steps
+
+Takes any goal and gives you concrete steps towards getting there.
 
 [Try it](https://trythursday.org/experiments/next-steps/)
+
+### Thing Refiner
+
+Helps you create and refine text documents. Type a goal and what you have so 
+far -- get one thing to cut or one thing to add.
+
+[Try it](https://trythursday.org/experiments/thing-refiner/)
 
 ### The Thursday skill file
 
